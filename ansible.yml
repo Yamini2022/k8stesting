@@ -1,0 +1,4 @@
+- hosts: localhost
+  tasks:
+    - name: Update Kubernetes Deployment
+      command: kubectl apply -f k8s/deployment.yml
